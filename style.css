@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
+header{
+    background-color: #AD2B31;
+    color: white;
+    height: 70px;
+}
+nav > a{
+    color:white;
+    font-family: 'Righteous', cursive;
+    min-width: 1000px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+nav > a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+section > video{
+    display: flex;
+    width: 100%;
+}
+main > section#s2 {
+    background: black url('imagens/lojas.jpg') no-repeat center top fixed;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+main > section#s3 {
+    background: black url('imagens/cinema.jpg') no-repeat center top fixed;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+main > section#s4 {
+    background: black url('imagens/alimentacao.jpg') no-repeat center top fixed;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+main > section#s5 {
+    background: black url('imagens/restaurantes.jpg') no-repeat center top fixed;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+main > section#s6 {
+    background: black url('imagens/contato.jpg') no-repeat center top fixed;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+article{
+    background-color: rgba(0, 0, 0, 0.226);
+    font-family: 'Righteous', cursive;
+    font-size: 100px;
+    width: auto;
+    height: 500px;
+    text-align: center;
+    padding-top: 180px;
+}
+article > a{
+    color: white
+}
+footer{
+    background-color: #AD2B31;
+    color: white;
+    font-size: 10px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+}
+footer > p{
+    color: white;
+    font-size: 15px;
+}
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 3px;
+    width: auto;
+}
