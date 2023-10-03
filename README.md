@@ -5,7 +5,7 @@
 
 ## Objetivo:
 
-Consiste em uma landing Page criada de um shopping real usando efeito Parallax.
+Minha primeira landing page consiste de um site inspirado em um shopping real usando efeito Parallax.
 
 ## Foi utilizado:
 
